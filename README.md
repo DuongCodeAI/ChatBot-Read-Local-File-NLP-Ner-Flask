@@ -4,7 +4,7 @@ Chatbot được xây dựng để **trả lời tự động các câu hỏi FA
 **Lưu ý** 
 1. File dữ liệu  duLieuCongTy.json được tạo **tự động hoàn toàn** bằng AI và không liên quan đến bất kì cá nhân, tổ chức nào
 2. Các file data_chuDe.json đã xin phép ViettelPost trước khi scrap dữ liệu câu hỏi FAQ
-Dự án ứng dụng các kỹ thuật **NLP, NER, semantic search và rule-based matching** để tối ưu hóa khả năng trả lời chính xác.
+3. Dự án sử dụng các kỹ thuật **NLP, NER, semantic search và rule-based matching** để tối ưu hóa khả năng trả lời chính xác.
 
 ---
 
@@ -105,6 +105,7 @@ source .venv/bin/activate   # Linux/Mac
 
 3. Chạy ứng dụng Flask
 python test.py 
+
 
 
 
