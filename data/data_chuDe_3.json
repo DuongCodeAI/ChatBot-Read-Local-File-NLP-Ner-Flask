@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "title": "Quy định về bồi thường thiệt hại",
+      "paragraphs": [
+        {
+          "context": "Đối với bưu gửi là thư, chứng từ, tài liệu, ấn phẩm, giấy tờ thông thường: Bồi thường 04 lần cước (đã bao gồm hoàn trả lại cước dịch vụ đã sử dụng) của dịch vụ đã sử dụng. Đối với bưu gửi là chứng từ có giá trị: Hồ sơ thầu, giấy báo nhập học, giấy đăng kiểm, giấy phép lái xe, hộ chiếu, sổ gốc hộ khẩu, chứng minh thư, bằng gốc đại học, có khai báo nội dung trước khi gửi: bồi thường chi phí làm lại giấy tờ nhưng tối đa không quá 2 triệu đồng/bưu gửi. Không khai báo nội dung trước khi gửi: bồi thường theo quy định của Luật Bưu chính và nghị định 47/2011/NĐ-CP (đã bao gồm hoàn trả lại cước dịch vụ đã sử dụng) của dịch vụ đã sử dụng.",
+          "qas": [
+            {
+              "id": "FAQ_3_1",
+              "question": "Tôi gửi thư là tài liệu, giấy tờ, chứng từ mất bồi thường như nào?",
+              "answers": [
+                {
+                  "text": "Bồi thường 04 lần cước (đã bao gồm hoàn trả lại cước dịch vụ đã sử dụng) cho thư, chứng từ, tài liệu, ấn phẩm, giấy tờ thông thường. Với chứng từ có giá trị, nếu khai báo nội dung trước khi gửi, bồi thường tối đa 2 triệu đồng/bưu gửi; nếu không khai báo, bồi thường theo Luật Bưu chính và nghị định 47/2011/NĐ-CP.",
+                  "answer_start": 49
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Giá trị bồi thường thỏa thuận theo hợp đồng riêng hai bên ký kết (nếu có). Chứng từ chứng minh giá trị thiệt hại (hóa đơn tài chính hoặc chứng từ chuyển khoản có xác nhận của ngân hàng trước thời gian gửi, chứng từ chuyển tiền qua ví điện tử được ngân hàng nhà nước công nhận như Momo, Zalo Pay, Mobile money, Viettel Pay) trước thời gian gửi; đối với chứng từ chuyển khoản không có xác nhận của ngân hàng cần kèm thông tin trao đổi mua bán trước ngày gửi: Bồi thường 70% giá trị thiệt hại nhưng tối đa không quá 30 triệu đồng/bưu gửi.",
+          "qas": [
+            {
+              "id": "FAQ_3_2",
+              "question": "Viettel Post có chính sách bồi thường hàng hóa khi hàng hóa bị mất đối với khách hàng không sử dụng dịch vụ bảo hiểm hàng hóa, không sử dụng dịch vụ chuyển phát thương mại điện tử, không chứng minh được giá trị thiệt hại?",
+              "answers": [
+                {
+                  "text": "Giá trị bồi thường thỏa thuận theo hợp đồng riêng hai bên ký kết (nếu có). Nếu không có chứng từ chứng minh giá trị thiệt hại thì bồi thường 70% giá trị thiệt hại nhưng tối đa không quá 30 triệu đồng/bưu gửi.",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Bồi thường cho khách hàng tối đa bằng 100% số tiền thu hộ (tiền COD và cước đầu nhận thanh toán) không bao gồm lợi nhuận nhưng tối đa không quá 30 triệu đồng/bưu gửi. Đối với đơn hàng có giá trị lớn hơn số tiền COD mà người gửi muốn được bồi thường 100% thì phải sử dụng dịch vụ bảo hiểm và khai giá cho phần vượt trên giá trị COD nhưng tổng giá trị bồi thường không quá 100 triệu đồng/bưu gửi.",
+          "qas": [
+            {
+              "id": "FAQ_3_3",
+              "question": "Viettel Post có chính sách bồi thường hàng hóa khi hàng hóa bị mất đối với khách hàng sử dụng dịch vụ thu hộ tiền COD như thế nào?",
+              "answers": [
+                {
+                  "text": "Bồi thường tối đa 100% số tiền thu hộ (COD và cước đầu nhận thanh toán), không bao gồm lợi nhuận, tối đa 30 triệu đồng/bưu gửi. Nếu giá trị lớn hơn COD muốn bồi thường 100%, phải sử dụng dịch vụ bảo hiểm và khai giá phần vượt trên COD, tổng bồi thường không quá 100 triệu đồng/bưu gửi.",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Bồi thường 100% giá trị thiệt hại. Giá trị bảo hiểm và khai giá tối đa 100 triệu đồng/bưu gửi (giá trị hàng hóa lớn hơn 100 triệu, khách hàng tự mua bảo hiểm hàng hóa của các Công ty bảo hiểm). Bưu gửi có nội dung là giá trị cao, trên 3.000.000đ, yêu cầu sử dụng dịch vụ giá trị cao. Yêu cầu: 100% hàng hóa phải dùng dịch vụ bảo hiểm và khai giá; các hàng giá trị cao phải sử dụng đồng thời cả 02 dịch vụ “Bảo hiểm và khai giá”.",
+          "qas": [
+            {
+              "id": "FAQ_3_4",
+              "question": "Viettel Post có chính sách bồi thường hàng khi hàng hóa bị mất đối với khách hàng sử dụng dịch vụ bảo hiểm hàng hóa như thế nào?",
+              "answers": [
+                {
+                  "text": "Bồi thường 100% giá trị thiệt hại. Giá trị bảo hiểm và khai giá tối đa 100 triệu đồng/bưu gửi. Các hàng giá trị cao phải dùng đồng thời dịch vụ bảo hiểm và khai giá.",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Chính sách bồi thường theo các mức hư hỏng bưu gửi: Việc bồi thường thiệt hại trong trường hợp bưu gửi bị mất, hư hỏng hoặc tráo đổi một phần được xác định trên cơ sở thiệt hại thực tế, nhưng không cao hơn mức giới hạn trách nhiệm bồi thường toàn bộ đối với dịch vụ đó, tối đa 30 triệu đồng/1 bưu gửi. 1. Rách, ướt thùng hàng, rách tem niêm phong: tối đa bồi thường 10% giá trị bưu gửi. 2. Hàng bị vỡ hỏng mất phụ kiện, sản phẩm vẫn sử dụng được: tối đa bồi thường 20% giá trị bưu gửi. 3. Hàng bị vỡ hỏng, hư hại <30%, vẫn sử dụng được: tối đa bồi thường 30% giá trị bưu gửi. 4. Hàng bị vỡ hỏng, hư hại <50%, vẫn sử dụng được: tối đa bồi thường 50% giá trị bưu gửi. 5. Hàng bị vỡ hỏng, hư hại >50%: bồi thường theo chính sách mất Bưu gửi, hàng hóa sau khi bồi thường thuộc sở hữu VTP.",
+          "qas": [
+            {
+              "id": "FAQ_3_5",
+              "question": "Khi gửi hàng bị hư hỏng thì tôi được đền bù như nào?",
+              "answers": [
+                {
+                  "text": "Bồi thường theo mức hư hỏng thực tế: Rách, ướt thùng hoặc rách tem niêm phong tối đa 10%; hàng bị vỡ mất phụ kiện, sản phẩm vẫn dùng được tối đa 20%; vỡ hỏng <30% tối đa 30%; vỡ hỏng <50% tối đa 50%; vỡ hỏng >50% bồi thường theo chính sách mất bưu gửi, hàng hóa sau bồi thường thuộc VTP.",
+                  "answer_start": 93
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

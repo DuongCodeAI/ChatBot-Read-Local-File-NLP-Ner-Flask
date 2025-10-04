@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "title": "Quy định nhận hàng",
+      "paragraphs": [
+        {
+          "context": "Để đảm bảo giao đúng người nhận, nhanh chóng và an toàn, Viettel Post quy định người gửi cần in và dán phiếu gửi lên kiện hàng hoặc viết mã vận đơn lên kiện hàng. Viettel Post không giới hạn số lượng đơn mỗi lần lấy, 1 đơn Viettel Post cũng hỗ trợ lấy hàng tại địa chỉ. Nhân viên ViettelPost sẽ liên hệ Quý khách đến lấy hàng tại nhà. Thời gian nhận hàng như sau: Đối với nội thành: 1. Thời gian tạo đơn trước 10h00, ca nhận hàng trước 13h00, thời gian tính chỉ tiêu từ 13h00. 2. Thời gian tạo đơn từ 10h00 đến 16h00, ca nhận hàng trước 18h00, thời gian tính chỉ tiêu từ 24h00. 3. Thời gian tạo đơn sau 16h00, ca nhận hàng trước 13h00 ngày n+1, thời gian tính chỉ tiêu từ 13h00 ngày n+1. Đối với khu vực ngoại thành/huyện: 1. Thời gian tạo đơn trước 16h00, ca nhận hàng trước 18h00, thời gian tính chỉ tiêu từ 24h00. 2. Thời gian tạo đơn sau 16h00, ca nhận hàng trước 13h00 ngày n+1, thời gian tính chỉ tiêu từ 13h00 ngày n+1. Lưu ý: Sau 16h00 khách hàng có thể mang ra bưu cục để được chấp nhận kết nối với chuyến sớm nhất. Các trường hợp đặc biệt Viettel Post sẽ có thông báo nhận hàng cụ thể đến khách hàng. Thời gian lấy hàng có thể thay đổi căn cứ vào địa điểm lấy hàng thuộc Thành phố/Thị xã/Quận/Huyện. Nếu cần hỗ trợ đặc biệt, anh/chị vui lòng ghi chú trên vận đơn hoặc gửi yêu cầu qua app/website. Trước khi đến nhận bưu gửi bưu tá sẽ liên hệ cho Quý khách trước 10-15 phút để xác nhận thông tin địa chỉ lấy hàng. Khi tiếp nhận bưu gửi Viettel Post sẽ kiểm tra 100% nội dung hàng hóa, hóa đơn chứng từ đi kèm, cách gói bọc, đối chiếu lại thông tin đơn hàng trên phiếu và vỏ bọc phải khớp nhau. Sau khi lấy hàng, nhân viên ViettelPost sẽ thực hiện ghi nhận doanh thu bưu gửi và tiến hành in nhãn dán lên bưu gửi. Quý khách có thể tra cứu hành trình đơn hàng trên App hoặc Website của ViettelPost.",
+          "qas": [
+            {
+              "id": "FAQ_4_1",
+              "question": "Trên gói hàng quý khách cần ghi những nội dung gì?",
+              "answers": [
+                {
+                  "text": "Người gửi cần in và dán phiếu gửi lên kiện hàng hoặc viết mã vận đơn lên kiện hàng.",
+                  "answer_start": 68
+                }
+              ]
+            },
+            {
+              "id": "FAQ_4_2",
+              "question": "Số lượng đơn mỗi lần lấy là bao nhiêu?",
+              "answers": [
+                {
+                  "text": "Viettel Post không giới hạn số lượng đơn mỗi lần lấy, 1 đơn Viettel Post cũng hỗ trợ lấy hàng tại địa chỉ.",
+                  "answer_start": 157
+                }
+              ]
+            },
+            {
+              "id": "FAQ_4_3",
+              "question": "Thời gian Viettel Post đến lấy hàng tại nhà?",
+              "answers": [
+                {
+                  "text": "Đối với nội thành: tạo đơn trước 10h00, ca nhận hàng trước 13h00; tạo đơn 10h00-16h00, ca nhận hàng trước 18h00; tạo đơn sau 16h00, ca nhận hàng trước 13h00 ngày n+1. Đối với ngoại thành/huyện: tạo đơn trước 16h00, ca nhận hàng trước 18h00; tạo đơn sau 16h00, ca nhận hàng trước 13h00 ngày n+1.",
+                  "answer_start": 219
+                }
+              ]
+            },
+            {
+              "id": "FAQ_4_4",
+              "question": "Khi lấy hàng, Nhân viên Viettel Post cần những thao tác gì?",
+              "answers": [
+                {
+                  "text": "Trước khi đến nhận bưu gửi bưu tá sẽ liên hệ cho Quý khách trước 10-15 phút để xác nhận thông tin địa chỉ lấy hàng. Khi tiếp nhận bưu gửi sẽ kiểm tra 100% nội dung hàng hóa, hóa đơn chứng từ đi kèm, cách gói bọc, đối chiếu lại thông tin đơn hàng trên phiếu và vỏ bọc phải khớp nhau. Sau khi lấy hàng, nhân viên sẽ ghi nhận doanh thu bưu gửi và in nhãn dán lên bưu gửi.",
+                  "answer_start": 1090
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+ 

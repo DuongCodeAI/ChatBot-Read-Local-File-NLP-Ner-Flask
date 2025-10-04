@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "title": "Đối soát - chuyển tiền thu hộ",
+      "paragraphs": [
+        {
+          "context": "Viettel Post linh hoạt với các lịch đối soát tùy chọn của quý khách. Khi ký hợp đồng quý khách có thể lựa chọn lịch đối soát phù hợp với các mốc thời gian như sau: Đối soát 3 lần/tuần vào thứ 2,4,6. Đối soát 2 lần/tuần vào thứ 3,5. Đối soát 1 lần/tuần vào thứ 2. Đối soát 2 lần/tháng vào ngày 15 và ngày cuối cùng của tháng. Đối soát 1 lần/tháng, cắt kỳ vào ngày cuối cùng của tháng. Điều kiện áp dụng: Khách hàng đơn lẻ và khách hàng đã ký hợp đồng sử dụng dịch vụ với Viettel Post có thu hộ COD. Hồ sơ thanh toán: CMT hoặc CCCD bản gốc, Thông tin tài khoản ngân hàng, Hợp đồng đã kí với Viettel Post. Thời gian thanh toán: Thanh toán chuyển khoản COD vào thứ 2, 4, 6 hoặc theo thỏa thuận của khách hàng khi kí hợp đồng. Số tiền chuyển khoản tối thiểu trên một lần chuyển khoản: Đối với KH lẻ tại Hà Nội và Hồ Chí Minh tối thiểu 1000.000 đồng/lần. Đối với KH lẻ các tỉnh còn lại tối thiểu 500.000 đồng/lần. Lưu ý: Trường hợp COD phải trả nhỏ hơn hạn mức trên sẽ cộng dồn vào lần tiếp theo để thanh toán. Trường hợp cộng dồn không đủ hạn mức sẽ thanh toán vào cuối tháng. Cuối tháng hệ thống gửi mail đối soát với khách hàng về tổng số tiền đã thanh toán và số tiền cước đã cấn trừ trong tháng.",
+          "qas": [
+            {
+              "id": "FAQ_5_1",
+              "question": "Tôi có thể chọn lịch đối soát không?",
+              "answers": [
+                {
+                  "text": "Viettel Post linh hoạt với các lịch đối soát tùy chọn của quý khách. Khi ký hợp đồng quý khách có thể lựa chọn lịch đối soát phù hợp với các mốc thời gian: Đối soát 3 lần/tuần vào thứ 2,4,6; Đối soát 2 lần/tuần vào thứ 3,5; Đối soát 1 lần/tuần vào thứ 2; Đối soát 2 lần/tháng vào ngày 15 và ngày cuối cùng của tháng; Đối soát 1 lần/tháng, cắt kỳ vào ngày cuối cùng của tháng.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "id": "FAQ_5_2",
+              "question": "Tôi đã gửi hàng tại Viettel Post, đơn hàng có thu hộ thì tôi nhận tiền như thế nào?",
+              "answers": [
+                {
+                  "text": "Điều kiện áp dụng: Khách hàng đơn lẻ và khách hàng đã ký hợp đồng sử dụng dịch vụ với Viettel Post có thu hộ COD. Hồ sơ thanh toán: CMT hoặc CCCD bản gốc, Thông tin tài khoản ngân hàng, Hợp đồng đã kí với Viettel Post. Thời gian thanh toán: Thanh toán chuyển khoản COD vào thứ 2, 4, 6 hoặc theo thỏa thuận của khách hàng khi kí hợp đồng. Số tiền chuyển khoản tối thiểu: Đối với KH lẻ tại Hà Nội và Hồ Chí Minh tối thiểu 1000.000 đồng/lần. Đối với KH lẻ các tỉnh còn lại tối thiểu 500.000 đồng/lần. Lưu ý: COD nhỏ hơn hạn mức sẽ cộng dồn vào lần tiếp theo. Cuối tháng hệ thống gửi mail đối soát với khách hàng về tổng số tiền đã thanh toán và số tiền cước đã cấn trừ trong tháng.",
+                  "answer_start": 190
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+ 

@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "title": "Các quy định về hàng hóa",
+      "paragraphs": [
+        {
+          "context": "Theo quy định Nhà nước, các loại hàng hóa bị cấm gửi: 1. Thuốc phiện, các hợp chất từ thuốc phiện, các chất ma túy, các chất kích thích thần kinh. 2. Vũ khí, đạn dược, chất nổ, trang thiết bị quân sự, pin dự phòng. 3. Các loại văn hóa phẩm đồi trụy, phản động, ấn phẩm, tài liệu nhằm phá hoại trật tự công cộng, chống lại nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam. 4. Vật hoặc chất dễ nổ, dễ cháy và các chất gây nguy hiểm, mất vệ sinh, gây ô nhiễm môi trường. 5. Các loại vật phẩm, hàng hóa Nhà nước cấm lưu thông, cấm kinh doanh, cấm xuất, nhập khẩu. 6. Sinh vật sống. 7. Vật phẩm, ấn phẩm, hàng hóa cấm nhập vào nước nhận theo thông báo của Liên minh Bưu chính thế giới. 8. Tiền Việt Nam, tiền nước ngoài và các giấy tờ có giá trị như tiền. 9. Thư trong bưu kiện (thư gửi kèm trong hàng hóa). 10. Các loại kim khí quý (vàng, bạc, bạch kim,…), các loại đá quý hay các sản phẩm khác chế tạo từ kim khí quý, đá quý (cấm gửi kể cả gửi trong bưu gửi khai giá). 11. Bưu gửi chứa nhiều bưu gửi, gửi đi nhiều địa chỉ nhận khác nhau. 12. Vật phẩm, hàng hóa trong thư, ấn phẩm, học phẩm dùng cho người mù (NĐ 15/2020/NĐ-CP).",
+          "qas": [
+            {
+              "id": "FAQ_1_1",
+              "question": "Hàng hóa cấm vận chuyển gồm những loại hàng hóa nào?",
+              "answers": [
+                {
+                  "text": "Thuốc phiện, các hợp chất từ thuốc phiện, các chất ma túy, các chất kích thích thần kinh; Vũ khí, đạn dược, chất nổ, trang thiết bị quân sự, pin dự phòng; Các loại văn hóa phẩm đồi trụy, phản động, ấn phẩm, tài liệu nhằm phá hoại trật tự công cộng, chống lại nhà nước; Vật hoặc chất dễ nổ, dễ cháy và các chất gây nguy hiểm; Các loại vật phẩm, hàng hóa Nhà nước cấm lưu thông, cấm kinh doanh, cấm xuất, nhập khẩu; Sinh vật sống; Vật phẩm, ấn phẩm, hàng hóa cấm nhập vào nước nhận theo thông báo của Liên minh Bưu chính thế giới; Tiền Việt Nam, tiền nước ngoài và các giấy tờ có giá trị như tiền; Thư trong bưu kiện; Các loại kim khí quý, đá quý và sản phẩm chế tạo từ chúng; Bưu gửi chứa nhiều bưu gửi; Vật phẩm, hàng hóa trong thư, ấn phẩm, học phẩm dùng cho người mù",
+                  "answer_start": 36
+                }
+              ]
+            },
+            {
+              "id": "FAQ_1_2",
+              "question": "Hàng gửi có điều kiện gồm những loại hàng hóa nào?",
+              "answers": [
+                {
+                  "text": "Bưu phẩm, bưu kiện chứa hàng hóa để kinh doanh phải có chứng từ thuế; Vật phẩm, hàng hóa xuất nhập khẩu thuộc quản lý chuyên ngành; Ong, tằm, đỉa, côn trùng, phục vụ nghiên cứu khoa học, vật phẩm, hàng hóa dễ hư, hỏng, chất lỏng, chất bột đóng gói phải bảo đảm; Vật phẩm, hàng hóa gửi trong bưu phẩm, bưu kiện sử dụng dịch vụ máy bay phải tuân theo các quy định về an ninh hàng không",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "id": "FAQ_1_3",
+              "question": "Hàng nguy hiểm cấm bay qua đường hàng không gồm những loại hàng hóa nào?",
+              "answers": [
+                {
+                  "text": "Các loại chất nổ; Chất khí; Chất lỏng dễ cháy; Chất rắn dễ cháy; Các chất oxy hóa; Các chất độc hại và chất lây nhiễm; Nguyên liệu chất phóng xạ; Các chất hóa học gây nguy hiểm khi tiếp xúc; Các loại hàng nguy hiểm khác như chất gây mê, kích thích, chất từ tính, vật phẩm",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "id": "FAQ_1_4",
+              "question": "Hàng hóa vận chuyển bởi Viettel Post cần được đóng gói như thế nào?",
+              "answers": [
+                {
+                  "text": "Để đảm bảo hàng hóa vận chuyển an toàn và nguyên vẹn khi sử dụng dịch vụ Viettel Post, việc đóng gói đúng cách là vô cùng quan trọng. Quy trình đóng gói bao gồm: Lựa chọn và chuẩn bị bao bì, Đóng gói sản phẩm, Xử lý đặc biệt cho các loại hàng hóa khác nhau, Ghi thông tin và cảnh báo, Xử lý chứng từ và tài liệu, Hoàn thiện và bảo vệ bưu gửi.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "id": "FAQ_1_5",
+              "question": "Tại sao cần đóng gói theo quy chuẩn?",
+              "answers": [
+                {
+                  "text": "Nhằm đảm bảo độ an toàn của bưu gửi được toàn vẹn về hình thức và nội dung như lúc ký gửi, giảm tình trạng hoàn hàng, hàng hóa bị hư hỏng trong quá trình vận chuyển, tiết kiệm chi phí cho người gửi hàng. Quy định đóng gói được sử dụng làm căn cứ quy chiếu trách nhiệm cho các bên liên quan khi xảy ra khiếu nại do lỗi phát sinh trong quá trình vận chuyển.",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

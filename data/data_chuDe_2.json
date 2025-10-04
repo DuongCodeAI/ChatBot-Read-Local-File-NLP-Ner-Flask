@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "title": "Cách đóng gói hàng hóa",
+      "paragraphs": [
+        {
+          "context": "Với mặt hàng xe máy khách hàng cần đóng gói đảm bảo trước khi gửi hàng, cụ thể: 1. Xe phải được bọc chống xước tại các vị trí dễ hư hại như thân, mặt, yếm … cố định xe trên pallet/ đế gỗ, đóng khung xung quanh để đảm bảo xe không bị đổ hoặc suy suyển trong quá trình vận chuyển. 2. Rút toàn bộ xăng trong bình để đảm bảo an toàn cháy nổ trong quá trình vận chuyển. 3. Tháo gương và gói bọc riêng để đảm bảo gương không bị vỡ khi vận chuyển. 4. Bọc bìa carton các vị trí dễ trầy, xước như thân xe, đèn, mặt xe, yếm xe… để bảo vệ xe. 5. Đặt xe lên Pallet/ đế gỗ cố định xe trong pallet/ đế gỗ sử dụng đai để cố định xe không bị rung lắc khi di chuyển. 6. Đóng khung gỗ xung quanh và phía trên, khung gỗ cần chắc chắn và có thể chịu được lực trong trường hợp có vật khác xếp phía trên. 7. Bọc xốp nổ, nilon các vị trí tiếp xúc giữa xe máy và cạnh pallet/ đế gỗ, thanh gỗ.",
+          "qas": [
+            {
+              "id": "FAQ_2_1",
+              "question": "Muốn gửi xe máy thì đóng gói thế nào?",
+              "answers": [
+                {
+                  "text": "Xe phải được bọc chống xước tại các vị trí dễ hư hại, rút xăng trong bình, tháo gương và bọc riêng, bọc bìa carton các vị trí dễ trầy, đặt lên pallet/đế gỗ cố định, đóng khung gỗ xung quanh và phía trên, bọc xốp nổ, nilon các vị trí tiếp xúc.",
+                  "answer_start": 46
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Đóng gói hàng chất bột, sữa hộp: 1. Dùng giấy bọt khí bọc quanh hộp sữa, giấy bọt khí có khả năng chống sốc tốt, mỗi mặt hàng cần bọc ít nhất 5cm và đặt cách vách thùng 5cm. 2. Sử dụng vật liệu chèn như hạt xốp, hạt nở, giấy vụn chèn xung quanh và lấp đầy khoảng trống. Bao bì thùng đựng phải đảm bảo độ cứng. 3. Giấy bền, cứng, chắc chắn, dai, độ dày từ 5 lớp trở lên, chống thấm và chống ẩm. Thùng xốp cứng cũng là lựa chọn tốt, vách ngăn mềm và chèn kín khoảng trống. 4. Đậy nắp thùng, dán kín bằng các đường băng dính hình chữ thập. 5. Dán tem cảnh báo hàng dễ vỡ, chiều xếp hàng vào các thùng của hàng hóa.",
+          "qas": [
+            {
+              "id": "FAQ_2_2",
+              "question": "Cách đóng gói Hàng chất bột, sữa hộp?",
+              "answers": [
+                {
+                  "text": "Bọc hộp sữa bằng giấy bọt khí, sử dụng vật liệu chèn (xốp, giấy vụn), đảm bảo thùng cứng, dùng thùng xốp cứng hoặc vách ngăn mềm, đậy nắp thùng, dán băng dính, dán tem cảnh báo hàng dễ vỡ.",
+                  "answer_start": 22
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Đóng gói hàng chất lỏng: 1. Kiểm tra kỹ chai, lọ được nắp chặt hoặc bịt kín, cho vào túi nilon/túi nhựa. 2. Quấn bằng vật liệu mềm như mút xốp, màng túi hơi, chèn khoảng trống với xốp, hạt xốp, tấm bọt khí, vách ngăn mềm. 3. Đậy nắp thùng, dán kín bằng băng dính hình chữ thập. 4. Dán tem cảnh báo hàng dễ vỡ, chiều xếp hàng vào thùng.",
+          "qas": [
+            {
+              "id": "FAQ_2_3",
+              "question": "Cách đóng gói Hàng chất lỏng?",
+              "answers": [
+                {
+                  "text": "Kiểm tra chai, lọ nắp chặt, cho vào túi nilon/túi nhựa, quấn bằng mút xốp, màng túi hơi, chèn khoảng trống, đậy nắp thùng, dán băng dính, dán tem cảnh báo hàng dễ vỡ.",
+                  "answer_start": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Đóng gói hồ sơ thầu: 1. Dùng nilon bọc bên ngoài hộp/kiện tránh ướt và ẩm. 2. Dùng túi khí bọc sản phẩm, gia cố bằng băng keo. 3. Đóng gói vào hộp/thùng carton phù hợp, dán keo cố định. 4. Dán tem chú dẫn hàng dễ vỡ, dán phiếu giao nhận lên sản phẩm.",
+          "qas": [
+            {
+              "id": "FAQ_2_4",
+              "question": "Cách đóng gói Hồ sơ thầu?",
+              "answers": [
+                {
+                  "text": "Bọc nilon ngoài hộp/kiện, dùng túi khí bọc sản phẩm, gia cố bằng băng keo, đóng gói vào hộp/thùng carton, dán keo cố định, dán tem chú dẫn hàng dễ vỡ và phiếu giao nhận.",
+                  "answer_start": 11
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Pin, pin đã sạc, hoặc sạc pin: 1. Dùng xốp bọc xung quanh sản phẩm, gia cố bằng băng keo. 2. Dùng túi khí bọc sản phẩm, gia cố bằng băng keo. 3. Đóng gói vào hộp/thùng carton phù hợp, dán keo cố định, tránh va chạm. 4. Dán tem chú dẫn hàng dễ vỡ, dán phiếu giao nhận.",
+          "qas": [
+            {
+              "id": "FAQ_2_5",
+              "question": "Cách đóng gói Hàng từ tính, Pin?",
+              "answers": [
+                {
+                  "text": "Bọc xốp xung quanh, gia cố bằng băng keo, dùng túi khí bọc, đóng gói vào hộp/thùng carton phù hợp, dán keo cố định, dán tem chú dẫn hàng dễ vỡ.",
+                  "answer_start": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "context": "Hàng giá trị cao như máy tính xách tay, điện thoại, máy ảnh: 1. Bọc xốp 2 mặt sản phẩm, gia cố bằng băng keo. 2. Dùng túi khí bọc sản phẩm, gia cố bằng băng keo. 3. Đóng gói vào hộp/thùng carton phù hợp, dán keo cố định. 4. Dán tem chú dẫn hàng dễ vỡ, dán phiếu giao nhận.",
+          "qas": [
+            {
+              "id": "FAQ_2_6",
+              "question": "Cách đóng gói Hàng giá trị cao?",
+              "answers": [
+                {
+                  "text": "Bọc xốp 2 mặt sản phẩm, gia cố bằng băng keo, dùng túi khí bọc sản phẩm, đóng gói vào hộp/thùng carton phù hợp, dán keo cố định, dán tem chú dẫn hàng dễ vỡ.",
+                  "answer_start": 18
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

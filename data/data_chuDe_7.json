@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "title": "Tra cứu thông tin bưu cục",
+      "paragraphs": [
+        {
+          "context": "Để tra cứu thông tin các bưu cục gần nhất, bạn có thể thực hiện theo các cách sau: Trên app ViettelPost: Cách 1: Truy cập ô Tìm kiếm -> Chọn tính năng “Tra cứu bưu cục”. Cách 2: Tại màn hình Trang chủ -> Chọn Xem tất cả tính năng -> Chọn tính năng “Tra cứu bưu cục”. Trên website viettelpost.vn: Chọn “Tra cứu” -> Chọn “Tra cứu bưu cục”. Trên website viettelpost.com.vn: Chọn “Tra cứu” -> Chọn “Tìm kiếm bưu cục”. Để tra cứu thông tin Bưu cục gốc/Bưu cục phát theo đơn hàng: Trên app ViettelPost: Truy cập Đơn hàng -> Tìm kiếm và Chọn đơn cần tra cứu -> Truy cập “Lịch sử” ở khu vực thông tin Bưu tá. Trên website viettelpost.vn: Chọn Quản lý -> Chọn Quản lý vận đơn -> Tìm kiếm và Chọn đơn cần tra cứu -> Truy cập “Lịch sử” ở khu vực thông tin Bưu tá.",
+          "qas": [
+            {
+              "id": "FAQ_6_1",
+              "question": "Tôi muốn tra cứu địa chỉ, sđt của bưu cục thì vào đâu?",
+              "answers": [
+                {
+                  "text": "Để tra cứu thông tin các bưu cục gần nhất, bạn có thể thực hiện theo các cách sau: Trên app ViettelPost: Cách 1: Truy cập ô Tìm kiếm -> Chọn tính năng “Tra cứu bưu cục”. Cách 2: Tại màn hình Trang chủ -> Chọn Xem tất cả tính năng -> Chọn tính năng “Tra cứu bưu cục”. Trên website viettelpost.vn: Chọn “Tra cứu” -> Chọn “Tra cứu bưu cục”. Trên website viettelpost.com.vn: Chọn “Tra cứu” -> Chọn “Tìm kiếm bưu cục”. Để tra cứu thông tin Bưu cục gốc/Bưu cục phát theo đơn hàng: Trên app ViettelPost: Truy cập Đơn hàng -> Tìm kiếm và Chọn đơn cần tra cứu -> Truy cập “Lịch sử” ở khu vực thông tin Bưu tá. Trên website viettelpost.vn: Chọn Quản lý -> Chọn Quản lý vận đơn -> Tìm kiếm và Chọn đơn cần tra cứu -> Truy cập “Lịch sử” ở khu vực thông tin Bưu tá.",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+ 
