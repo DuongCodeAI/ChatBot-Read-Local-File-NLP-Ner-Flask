@@ -23,79 +23,58 @@ Dự án ứng dụng các kỹ thuật **NLP, NER, semantic search và rule-bas
 ## 🏗️ Kiến trúc hệ thống
 Pipeline xử lý câu hỏi trong chatbot:
 
-+---------------------+
-| User query (input) |
-+---------------------+
-│
-▼
-+---------------------+
-| Exact question check|
-| - So sánh query với |
-| tất cả question |
-| - Nếu có duy nhất |
-| match → trả answer|
-| - Nếu không → tiếp |
-| Data Loading |
-+---------------------+
-│
-▼
-+---------------------+
-| Data Loading |
-| - Load JSON files |
-| - Index documents |
-| - Error handling |
-| - Logging |
-| - Caching vectors |
-+---------------------+
-│
-▼
-+---------------------+
-| Preprocessing |
-| - Tokenize, lowercase|
-| - Remove stop words |
-| - Lemmatize / Stem |
-| - Logging |
-+---------------------+
-│
-▼
-| NER extraction |
-| - Detect entity |
-| - Logging |
-+---------------------+
-│
-▼
-| Semantic search |
-| - TF-IDF / Embedding|
-| - Cosine similarity |
-| - Entity-boosted |
-| - Logging |
-+---------------------+
-│
-▼
-| Rule-based matching |
-| - Entity-aware |
-| - Threshold check |
-| - Fallback response |
-| - Logging |
-+---------------------+
-│
-▼
-| Reranking / Fusion |
-| - Kết hợp kết quả |
-| - Chọn câu trả lời |
-| - Logging |
-+---------------------+
-│
-▼
-| Postprocessing |
-| - Format output |
-| - Handle no-match |
-+---------------------+
-│
-▼
-+---------------------+
-| Return answer |
-+---------------------+
+## 📌 Pipeline xử lý câu hỏi (QA Pipeline)
+
+1. **User query (input)**  
+   - Người dùng nhập câu hỏi
+
+2. **Exact question check**  
+   - So sánh query với tất cả câu hỏi trong dữ liệu  
+   - Nếu có duy nhất một match → trả ngay câu trả lời  
+   - Nếu không → chuyển sang bước tiếp theo  
+
+3. **Data Loading**  
+   - Load file JSON nội bộ  
+   - Index documents (dict hoặc vector DB)  
+   - Error handling (xử lý lỗi JSON, file không hợp lệ)  
+   - Logging (ghi lại số lượng dữ liệu load)  
+   - Caching vectors (vectorize trước để tăng tốc)  
+
+4. **Preprocessing**  
+   - Tokenize, lowercase  
+   - Loại bỏ stop words  
+   - Lemmatize / Stem  
+   - Logging  
+
+5. **NER extraction**  
+   - Phát hiện entity: Product, Date, Amount, Service,...  
+   - Logging  
+
+6. **Semantic search**  
+   - Tính toán TF-IDF / Embedding  
+   - Cosine similarity  
+   - Entity-boosted search (tăng trọng số cho entity)  
+   - Logging  
+
+7. **Rule-based matching**  
+   - Entity-aware matching  
+   - Threshold check (nếu similarity thấp → fallback)  
+   - Fallback response (ví dụ: *“Không tìm thấy thông tin”*)  
+   - Logging  
+
+8. **Reranking / Fusion**  
+   - Kết hợp kết quả semantic search + rule-based  
+   - Chọn câu trả lời tốt nhất  
+   - Logging  
+
+9. **Postprocessing**  
+   - Format lại output trả lời  
+   - Xử lý trường hợp không tìm thấy câu trả lời  
+   - Logging  
+
+10. **Return answer**  
+    - Trả kết quả cuối cùng cho người dùng
+
 
 ### Giao diện khởi đầu của hệ thống 
 ![giao diện ban đầu ](images/img1.jpg)
@@ -124,8 +103,8 @@ python -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
 
-pip install -r requirements.txt
 3. Chạy ứng dụng Flask
-python app.py web
+python test.py 
+
 
 
