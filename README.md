@@ -23,79 +23,18 @@ Dự án ứng dụng các kỹ thuật **NLP, NER, semantic search và rule-bas
 ## 🏗️ Kiến trúc hệ thống
 Pipeline xử lý câu hỏi trong chatbot:
 
-+---------------------+
-| User query (input) |
-+---------------------+
-│
-▼
-+---------------------+
-| Exact question check|
-| - So sánh query với |
-| tất cả question |
-| - Nếu có duy nhất |
-| match → trả answer|
-| - Nếu không → tiếp |
-| Data Loading |
-+---------------------+
-│
-▼
-+---------------------+
-| Data Loading |
-| - Load JSON files |
-| - Index documents |
-| - Error handling |
-| - Logging |
-| - Caching vectors |
-+---------------------+
-│
-▼
-+---------------------+
-| Preprocessing |
-| - Tokenize, lowercase|
-| - Remove stop words |
-| - Lemmatize / Stem |
-| - Logging |
-+---------------------+
-│
-▼
-| NER extraction |
-| - Detect entity |
-| - Logging |
-+---------------------+
-│
-▼
-| Semantic search |
-| - TF-IDF / Embedding|
-| - Cosine similarity |
-| - Entity-boosted |
-| - Logging |
-+---------------------+
-│
-▼
-| Rule-based matching |
-| - Entity-aware |
-| - Threshold check |
-| - Fallback response |
-| - Logging |
-+---------------------+
-│
-▼
-| Reranking / Fusion |
-| - Kết hợp kết quả |
-| - Chọn câu trả lời |
-| - Logging |
-+---------------------+
-│
-▼
-| Postprocessing |
-| - Format output |
-| - Handle no-match |
-+---------------------+
-│
-▼
-+---------------------+
-| Return answer |
-+---------------------+
+flowchart TD
+    1[💬 User Query] --> 2[🔍 Exact Question Match]
+    2 -->|✅ Có match duy nhất| 9[🏁 Return Answer]
+    2 -->|❌ Không có match| 3[📂 Data Loading]
+
+    3 --> 4[🧹 Preprocessing]
+    4 --> 5[🏷️ NER Extraction]
+    5 --> 6[🧠 Semantic Search]
+    6 --> 7[⚙️ Rule-based Matching]
+    7 --> 8[🔁 Reranking & Fusion]
+    8 --> 9[🎨 Postprocessing]
+    9 --> 10[🏁 Return Answer]
 
 ### Giao diện khởi đầu của hệ thống 
 ![giao diện ban đầu ](images/img1.jpg)
