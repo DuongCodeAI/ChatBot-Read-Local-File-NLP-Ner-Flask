@@ -23,11 +23,9 @@ Dự án ứng dụng các kỹ thuật **NLP, NER, semantic search và rule-bas
 ## 🏗️ Kiến trúc hệ thống
 Pipeline xử lý câu hỏi trong chatbot:
 
-flowchart TD
     1[💬 User Query] --> 2[🔍 Exact Question Match]
     2 -->|✅ Có match duy nhất| 9[🏁 Return Answer]
     2 -->|❌ Không có match| 3[📂 Data Loading]
-
     3 --> 4[🧹 Preprocessing]
     4 --> 5[🏷️ NER Extraction]
     5 --> 6[🧠 Semantic Search]
