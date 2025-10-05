@@ -1,8 +1,8 @@
 🤖 Dự án Chatbot đọc file nội bộ công ty (NLP + NER)
 
-Chatbot được xây dựng để **trả lời tự động các câu hỏi FAQ** từ dữ liệu nội bộ của công ty.
+Chatbot được xây dựng để **trả lời các câu hỏi FAQ và nội quy** từ dữ liệu nội bộ của công ty.
 **Lưu ý** 
-1. File dữ liệu  duLieuCongTy.json được tạo **tự động hoàn toàn** bằng AI và không liên quan đến bất kì cá nhân, tổ chức nào
+1. File dữ liệu  duLieuCongTy.json được tạo **tự động hoàn toàn** bằng AI và không liên quan đến bất kì cá nhân, tổ chức nào . File dữ liệu này là tổng hợp   nội quy cho doanh nghiệp
 2. Các file data_chuDe.json đã xin phép ViettelPost trước khi scrap dữ liệu câu hỏi FAQ
 Dự án ứng dụng các kỹ thuật **NLP, NER, semantic search và rule-based matching** để tối ưu hóa khả năng trả lời chính xác.
 
