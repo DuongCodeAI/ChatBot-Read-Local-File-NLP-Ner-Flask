@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot Nội Bộ - Hỗ Trợ Nhân Viên</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .chat-container {
+            width: 90%;
+            max-width: 800px;
+            height: 80vh;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .chat-header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .chat-header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: #f8f9fa;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message.bot {
+            justify-content: flex-start;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            word-wrap: break-word;
+            line-height: 1.4;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+
+        .message.bot .message-content {
+            background: white;
+            color: #333;
+            border: 1px solid #e1e5e9;
+            border-bottom-left-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Styling for topic content */
+        .message.bot .message-content h3 {
+            color: #4facfe;
+            margin-bottom: 15px;
+            font-size: 18px;
+            border-bottom: 2px solid #4facfe;
+            padding-bottom: 8px;
+        }
+
+        .message.bot .message-content .topic-item {
+            background: #f8f9fa;
+            border-left: 4px solid #4facfe;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .message.bot .message-content .topic-item strong {
+            color: #2c3e50;
+            font-size: 14px;
+        }
+
+        .message.bot .message-content .topic-item p {
+            margin: 8px 0;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .message.bot .message-content .topic-item:first-child {
+            margin-top: 0;
+        }
+
+        .message.bot .message-content .topic-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .message.bot .message-content .topic-container {
+            margin: 15px 0;
+        }
+
+        .message.bot .message-content .topic-container .topic-item {
+            margin: 8px 0;
+        }
+
+        /* Styling for lists */
+        .message.bot .message-content ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .message.bot .message-content li {
+            margin: 5px 0;
+            line-height: 1.5;
+        }
+
+        /* Styling for numbered lists */
+        .message.bot .message-content ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .message.bot .message-content ol li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+
+        /* Styling for emphasis */
+        .message.bot .message-content strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .message.bot .message-content em {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        .message-avatar {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .message.user .message-avatar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            order: 1;
+        }
+
+        .message.bot .message-avatar {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+        }
+
+        .chat-input-container {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e1e5e9;
+        }
+
+        .chat-input-form {
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e1e5e9;
+            border-radius: 25px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .chat-input:focus {
+            border-color: #667eea;
+        }
+
+        .send-button {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: transform 0.2s ease;
+        }
+
+        .send-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .send-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 10px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        .welcome-message {
+            text-align: center;
+            color: #666;
+            padding: 40px 20px;
+        }
+
+        .welcome-message h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .welcome-message p {
+            margin-bottom: 5px;
+        }
+
+        .suggested-questions {
+            margin-top: 20px;
+        }
+
+        .suggested-question {
+            display: inline-block;
+            background: #f0f0f0;
+            color: #333;
+            padding: 8px 16px;
+            margin: 5px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: background-color 0.3s ease;
+        }
+
+        .suggested-question:hover {
+            background: #e0e0e0;
+        }
+
+        @media (max-width: 600px) {
+            .chat-container {
+                width: 95%;
+                height: 90vh;
+            }
+            
+            .message-content {
+                max-width: 85%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🤖 ChatBot Nội Bộ</h1>
+            <p>Hỗ trợ nhân viên - Trả lời câu hỏi về quy định công ty</p>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="welcome-message">
+                <h3>👋 Chào mừng bạn đến với ChatBot Nội Bộ!</h3>
+                <p>Tôi có thể giúp bạn trả lời các câu hỏi về:</p>
+                <p>• Quy định giờ làm việc</p>
+                <p>• Chính sách đồng phục</p>
+                <p>• Cách đóng gói hàng hóa</p>
+                <p>• Và nhiều chủ đề khác...</p>
+                
+                <div class="suggested-questions">
+                    <div class="suggested-question" onclick="askQuestion('Giờ làm việc chính thức của công ty là khi nào?')">
+                        Giờ làm việc chính thức của công ty là khi nào?
+                    </div>
+                    <div class="suggested-question" onclick="askQuestion('Hàng giá trị cao đóng gói như nào?')">
+                        Hàng giá trị cao đóng gói như nào?
+                    </div>
+                    <div class="suggested-question" onclick="askQuestion('Các quy định về hàng hóa gồm những gì?')">
+                        Các quy định về hàng hóa gồm những gì?
+                    </div>
+                    <div class="suggested-question" onclick="askQuestion('Nhân viên có bắt buộc phải mặc đồng phục không?')">
+                        Nhân viên có bắt buộc phải mặc đồng phục không?
+                    </div>
+                    <div class="suggested-question" onclick="askQuestion('Bạn khỏe không?')" style="background: #ffebee; color: #c62828;">
+                        Không nên hỏi các câu không liên quan như: Bạn khỏe không?
+                    </div>
+                    <div class="suggested-question" onclick="askQuestion('Bạn thích gì?')" style="background: #ffebee; color: #c62828;">
+                        Không nên hỏi các câu không liên quan như: Bạn thích gì ?
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="loading" id="loading">
+            <p>🤔 Đang suy nghĩ...</p>
+        </div>
+        
+        <div class="chat-input-container">
+            <form class="chat-input-form" id="chatForm">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Nhập câu hỏi của bạn..." autocomplete="off">
+                <button type="submit" class="send-button" id="sendButton">Gửi</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chatMessages');
+        const chatForm = document.getElementById('chatForm');
+        const chatInput = document.getElementById('chatInput');
+        const sendButton = document.getElementById('sendButton');
+        const loading = document.getElementById('loading');
+
+        // Xử lý gửi tin nhắn
+        chatForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const question = chatInput.value.trim();
+            if (question) {
+                askQuestion(question);
+                chatInput.value = '';
+            }
+        });
+
+        // Hàm hỏi câu hỏi
+        async function askQuestion(question) {
+            // Ẩn welcome message nếu có
+            const welcomeMessage = document.querySelector('.welcome-message');
+            if (welcomeMessage) {
+                welcomeMessage.style.display = 'none';
+            }
+
+            // Thêm tin nhắn người dùng
+            addMessage(question, 'user');
+            
+            // Hiển thị loading
+            showLoading();
+            
+            try {
+                const response = await fetch('/api/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: question })
+                });
+
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    addMessage(data.answer, 'bot');
+                } else {
+                    const irrelevantReplies = [
+        "😅 Xin lỗi, tôi chưa hiểu rõ câu hỏi của bạn. Bạn có thể nói lại rõ hơn về quy định hoặc chính sách công ty không?",
+        "🤖 Câu hỏi này có vẻ chưa liên quan đến chủ đề tôi đang hỗ trợ. Bạn muốn hỏi về quy định, chính sách, hay thông tin nhân sự phải không?",
+        "🙈 Tôi không chắc mình hiểu đúng ý bạn. Bạn có thể hỏi về giờ làm việc, nghỉ phép, hoặc quy định công ty nhé!",
+        "⚠️ Xin lỗi, tôi chưa có thông tin cho câu hỏi này. Vui lòng hỏi về các chủ đề như chính sách, quy định, hoặc quy trình làm việc.",
+        "😅 Hình như câu hỏi của bạn nằm ngoài phạm vi hỗ trợ của tôi. Tôi chuyên trả lời về chính sách, quy định, và hướng dẫn nội bộ.",
+        "🤔 Tôi chưa có dữ liệu cho nội dung này. Bạn muốn tôi giúp tra cứu thông tin về công việc hoặc quy định công ty không?"
+    ];
+
+    // Chọn ngẫu nhiên 1 phản hồi
+    const randomReply = irrelevantReplies[Math.floor(Math.random() * irrelevantReplies.length)];
+    addMessage(randomReply, 'bot');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                addMessage('Xin lỗi, không thể kết nối đến server. Vui lòng thử lại sau.', 'bot');
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Thêm tin nhắn vào chat
+        function addMessage(text, sender) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            
+            const avatar = document.createElement('div');
+            avatar.className = 'message-avatar';
+            avatar.textContent = sender === 'user' ? 'Bạn' : 'Bot';
+            
+            const content = document.createElement('div');
+            content.className = 'message-content';
+            
+            // Xử lý định dạng text cho bot messages
+            if (sender === 'bot') {
+                content.innerHTML = formatBotMessage(text);
+            } else {
+                content.textContent = text;
+            }
+            
+            messageDiv.appendChild(avatar);
+            messageDiv.appendChild(content);
+            
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Format bot message với HTML
+        function formatBotMessage(text) {
+            // Xử lý markdown-style formatting
+            let formatted = text
+                // Xử lý tiêu đề chủ đề (📋 **Title**)
+                .replace(/📋\s+\*\*(.*?)\*\*/g, '<h3>📋 $1</h3>')
+                // Xử lý bold text
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                // Xử lý danh sách có số (1. item) - cải thiện regex
+                .replace(/^(\d+)\.\s+(.+?)(?=\n\d+\.|\n\n|$)/gms, '<div class="topic-item"><strong>$1.</strong> $2</div>')
+                // Xử lý xuống dòng
+                .replace(/\n\n/g, '<br><br>')
+                .replace(/\n/g, '<br>');
+            
+            // Nếu có topic items, wrap chúng trong container
+            if (formatted.includes('topic-item')) {
+                // Tìm tất cả topic items và wrap trong container
+                const topicItems = formatted.match(/<div class="topic-item">.*?<\/div>/gs);
+                if (topicItems) {
+                    const topicContainer = '<div class="topic-container">' + topicItems.join('') + '</div>';
+                    formatted = formatted.replace(/<div class="topic-item">.*?<\/div>/gs, topicContainer);
+                }
+            }
+            
+            return formatted;
+        }
+
+        // Hiển thị loading
+        function showLoading() {
+            loading.classList.add('show');
+            sendButton.disabled = true;
+        }
+
+        // Ẩn loading
+        function hideLoading() {
+            loading.classList.remove('show');
+            sendButton.disabled = false;
+        }
+
+        // Focus vào input khi load trang
+        chatInput.focus();
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "title": "Hướng dẫn tạo đơn",
+      "paragraphs": [
+        {
+          "context": "Để hỗ trợ quý khách hàng đăng ký sử dụng dịch vụ và tạo đơn hàng thành công trên ứng dụng Viettel Post. Dưới đây là các bước để tạo đơn hàng thành công. Các bước tạo đơn trên app Viettel Post: Bước 1: Truy cập tính năng Tạo đơn phù hợp ở màn Trang chủ hoặc mục Xem tất cả tính năng: Tạo đơn thường: Dịch vụ chuyển phát hàng hoá, tài liệu trong nước; Tạo đơn thông minh: Tạo đơn trong nước nhanh gọn với 1 câu lệnh; Tạo đơn quốc tế: Dịch vụ giao hàng xuyên biên giới; Tạo đơn giao ngay nội tỉnh: Dịch vụ giao nhanh siêu tốc, siêu rẻ nội tỉnh. Bước 2: Điền đầy đủ các trường thông tin bắt buộc. Bước 3: Tạo đơn. Nếu bạn cần thêm thông tin, vui lòng liên hệ CSKH để được hỗ trợ. Tạo đơn lẻ: Bước 1: Chọn mục “Tạo đơn”, sau đó chọn “Tạo đơn lẻ”. Bước 2: Chọn tạo đơn “Trong nước” hoặc “Quốc tế”, sau đó điền đầy đủ thông tin bắt buộc của đơn hàng. Bước 3: Ấn “Gửi ngay” để tạo đơn. Lưu ý: Khi Quý khách gửi hàng hóa là hàng giá trị cao (≥3 triệu đồng), vui lòng chọn dịch vụ cộng thêm bảo hiểm, đồng kiểm để đảm bảo giá trị hàng hóa. Tạo đơn Excel: Bước 1: Chọn mục “Tạo đơn”, sau đó chọn “Nhập Excel”. Bước 2: Nhập các thông tin đơn hàng hoặc “Tải file mẫu” về và nhập đầy đủ thông tin, sau đó ấn “Mở file” để tải file Excel lên. Hệ thống sẽ tự động thông báo các đơn hàng hợp lệ và không hợp lệ ở cột trạng thái. Bước 3: Ấn “Đẩy đơn”, hệ thống sẽ tự động đẩy những đơn hàng hợp lệ.",
+          "qas": [
+            {
+              "id": "FAQ_7_1",
+              "question": "Hướng dẫn khách hàng tạo đơn trên app Viettel Post",
+              "answers": [
+                {
+                  "text": "Các bước tạo đơn trên app Viettel Post: Bước 1: Truy cập tính năng Tạo đơn phù hợp ở màn Trang chủ hoặc mục Xem tất cả tính năng: Tạo đơn thường, Tạo đơn thông minh, Tạo đơn quốc tế, Tạo đơn giao ngay nội tỉnh. Bước 2: Điền đầy đủ các trường thông tin bắt buộc. Bước 3: Tạo đơn.",
+                  "answer_start": 88
+                }
+              ]
+            },
+            {
+              "id": "FAQ_7_2",
+              "question": "Hướng dẫn tạo đơn trên Web Viettelpost",
+              "answers": [
+                {
+                  "text": "Tạo đơn lẻ: Bước 1: Chọn mục “Tạo đơn”, sau đó chọn “Tạo đơn lẻ”. Bước 2: Chọn tạo đơn “Trong nước” hoặc “Quốc tế”, sau đó điền đầy đủ thông tin bắt buộc của đơn hàng. Bước 3: Ấn “Gửi ngay” để tạo đơn. Tạo đơn Excel: Bước 1: Chọn mục “Tạo đơn”, sau đó chọn “Nhập Excel”. Bước 2: Nhập các thông tin đơn hàng hoặc “Tải file mẫu” về và nhập đầy đủ thông tin, sau đó ấn “Mở file” để tải file Excel lên. Bước 3: Ấn “Đẩy đơn”, hệ thống sẽ tự động đẩy những đơn hàng hợp lệ.",
+                  "answer_start": 219
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+ 

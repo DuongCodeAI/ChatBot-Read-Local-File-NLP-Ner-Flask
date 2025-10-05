@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "title": "Tra cứu hành trình đơn hàng",
+      "paragraphs": [
+        {
+          "context": "Tra cứu hành trình đơn hàng qua App: Bước 1: Cách 1: Truy cập Đơn hàng. Cách 2: Truy cập ô Tìm kiếm -> Nhập thông tin đơn hàng (mã vận đơn, thông tin người nhận,…). Cách 3: Tại màn hình Trang chủ -> Chọn Xem tất cả tính năng -> Chọn tính năng “Tra cứu đơn hàng”. Bước 2: Tìm kiếm và Chọn đơn cần tra cứu -> Truy cập “Chi tiết” ở khu vực thông tin vận hành đơn để xem hành trình đơn và hình ảnh phát thành công. Tra cứu hành trình đơn hàng trên Web khách hàng: Bước 1: Quý khách truy cập trang web Viettelpost.vn, chọn “Quản lý”, sau đó chọn “Quản lý vận đơn”. Bước 2: Chọn hoặc tìm kiếm đơn hàng theo nhu cầu tra cứu, sau đó bấm vào “xem chi tiết” của đơn hàng. Bước 3: Quý khách có thể xem hành trình đơn hàng ở trong chi tiết đơn. Tra cứu hành trình đơn hàng trên Web tin tức: Bước 1: Quý khách truy cập phần “Tra cứu vận đơn” ở trang chủ, nhập đơn hàng muốn tra cứu, sau đó bấm “Tra cứu”. Bước 2: Quý khách có thể xem hành trình đơn hàng ở trong chi tiết đơn.",
+          "qas": [
+            {
+              "id": "FAQ_8_1",
+              "question": "Tôi muốn tra cứu hành trình đơn hàng thì vào đâu?",
+              "answers": [
+                {
+                  "text": "Tra cứu hành trình đơn hàng qua App: truy cập Đơn hàng, hoặc ô Tìm kiếm, hoặc Trang chủ -> Xem tất cả tính năng -> Tra cứu đơn hàng. Trên Web khách hàng: truy cập Viettelpost.vn -> Quản lý -> Quản lý vận đơn -> xem chi tiết đơn. Trên Web tin tức: truy cập phần Tra cứu vận đơn ở trang chủ, nhập đơn hàng, bấm Tra cứu.",
+                  "answer_start": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+ 
