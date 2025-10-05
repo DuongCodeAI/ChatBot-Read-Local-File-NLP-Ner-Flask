@@ -1,4 +1,4 @@
-🤖 Dự án Chatbot đọc file nội bộ công ty (NLP + NER)
+🤖 Dự án Chatbot QA cho dữ liệu nội quy và dữ liệu FAQ doanh nghiệp(NLP + NER)
 
 Chatbot được xây dựng để **trả lời các câu hỏi FAQ và nội quy** từ dữ liệu nội bộ của công ty.
 **Lưu ý** 
